@@ -101,7 +101,7 @@ function checkout() {
 }
 
 useHead({
-  title: "Piccon | Cart",
+  title: "Iccon | Cart",
 });
 </script>
 

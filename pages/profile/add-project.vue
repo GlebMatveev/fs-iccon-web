@@ -74,7 +74,7 @@ const areAllFiledsFilled = computed(() => {
 });
 
 useHead({
-  title: "Piccon | Add Project",
+  title: "Iccon | Add Project",
 });
 </script>
 

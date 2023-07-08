@@ -165,9 +165,9 @@ function clearFilterAndRouterPush() {
               />
               <a
                 class="footer__top-signup-email"
-                href="mailto:info@pic-con.com"
+                href="mailto:info@iccon.introlink.ru"
               >
-                info@pic-con.com
+                info@iccon.introlink.ru
               </a>
             </div>
           </div>

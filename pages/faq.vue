@@ -83,7 +83,7 @@ const qa = reactive([
 ]);
 
 useHead({
-  title: "Piccon | FAQ",
+  title: "Iccon | FAQ",
 });
 </script>
 

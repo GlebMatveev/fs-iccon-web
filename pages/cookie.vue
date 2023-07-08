@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "Piccon | Cookie Policy",
+  title: "Iccon | Cookie Policy",
 });
 </script>
 

@@ -84,7 +84,7 @@ function replaceImgByDefault(e) {
 }
 
 useHead({
-  title: "Piccon | Catalog",
+  title: "Iccon | Catalog",
 });
 </script>
 

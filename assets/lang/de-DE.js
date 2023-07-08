@@ -2,413 +2,386 @@ export default {
   static: {
     home: {
       bannerTop: {
-        textTitle: "10,2M векторлық белгішелерге қол жеткізіңіз",
+        textTitle: "Greifen Sie auf 10,2 Millionen Vektorsymbole zu",
         textDescription:
-          "Жобаларыңыз үшін тегін белгішелер мен стикерлерді жүктеп алыңыз. ",
+          "Laden Sie kostenlose Icons und Aufkleber für Ihre Projekte herunter. ",
         searchLabel: [
-          "Үздік іздеулер:",
-          "Ui, технология, білім, пайдаланушы. ",
+          "Top-Suchanfragen:",
+          "Benutzeroberfläche, Technologie, Bildung, Benutzer. ",
         ],
-        categories: ["Белгішелер", "Интерфейс белгішелері", "Стикерлер"],
+        categories: ["Symbole", "Schnittstellensymbole", "Aufkleber"],
       },
       topIcons: {
-        title: "Top icons",
-        button: "View all",
+        title: "Top-Symbole",
+        button: "Alle ansehen",
         items: [
-          {
-            title: "Әр түрлі элементтер",
-            subtitle: "100+ белгішелер",
-          },
-          {
-            title: "Негізгі экран қолданбалары",
-            subtitle: "200+ белгішелер",
-          },
-          {
-            title: "Қолмен сызылған көрсеткілер",
-            subtitle: "50+ белгішелер",
-          },
-          {
-            title: "Алфавит және сандар",
-            subtitle: "40+ белгішелер",
-          },
+          { title: "Verschiedene Elemente", subtitle: "100 Symbole" },
+          { title: "Startbildschirm-Apps", subtitle: "200 Symbole" },
+          { title: "Handgezeichnete Pfeile", subtitle: "50 Symbole" },
+          { title: "Alphabet und Zahlen", subtitle: "40 Symbole" },
         ],
       },
       topStickers: {
-        title: "Top stickers",
-        button: "View all",
+        title: "Top Aufkleber",
+        button: "Alle ansehen",
         items: [
-          {
-            title: "Басты бет",
-            subtitle: "100+ жапсырмалар",
-          },
-          {
-            title: "Туған күн",
-            subtitle: "40+ жапсырмалар",
-          },
-          {
-            title: "Жануарлар",
-            subtitle: "20+ жапсырмалар",
-          },
-          {
-            title: "үйде бол",
-            subtitle: "10+ жапсырмалар",
-          },
+          { title: "Heim", subtitle: "100 Aufkleber" },
+          { title: "Geburtstag", subtitle: "40 Aufkleber" },
+          { title: "Tiere", subtitle: "20 Aufkleber" },
+          { title: "Bleib zuhause", subtitle: "10 Aufkleber" },
         ],
       },
       bannerTablet: {
-        title: "Үлкен немесе кіші кез келген жобаға арналған белгіше қаріптері",
+        title: "Symbolschriftarten für jedes Projekt, ob groß oder klein",
         description:
-          "Веб, iOS және Android қолданбалары үшін оңтайландырылған векторлық белгішелерге негізделген 16 200 SVG және қаріп файлдары.",
-        button: "Толығырақ көру",
+          "16.200 SVG- und Schriftartdateien basierend auf Vektorsymbolen, optimiert für Web-, iOS- und Android-Anwendungen.",
+        button: "Mehr sehen",
       },
       tools: {
-        title: "Жұмысыңызды кәсібирек етуге көмектесетін құралдар",
+        title:
+          "Tools, die Ihnen helfen, Ihre Arbeit professioneller zu gestalten",
         description:
-          "Дизайныңызды ұйымдастыруға, жасауға және уақытты үнемдеуге мүмкіндік беретін тегін аксессуарлар",
+          "Kostenloses Zubehör, mit dem Sie Ihre Designs organisieren, erstellen und Zeit sparen können",
         items: [
           {
-            title: "Жинақтар",
+            title: "Sammlungen",
             description:
-              "Белгішелерді ретке келтіру үшін бірнеше жинақ жасаңыз және оларды кез келген пішімде жүктеп алыңыз.",
-            link: "Толығырақ көру",
+              "Erstellen Sie mehrere Sammlungen, um Ihre Symbole zu organisieren und laden Sie sie in dem gewünschten Format herunter.",
+            link: "Mehr sehen",
           },
           {
-            title: "Редактор",
+            title: "Editor",
             description:
-              "Белгішелердің түсін өңдеңіз, өлшемін өзгертіңіз және оларды SVG, PNG және EPS форматында жүктеп алыңыз.",
-            link: "Толығырақ көру",
+              "Bearbeiten Sie die Farbe Ihrer Symbole, ändern Sie die Größe und laden Sie sie in SVG, PNG und EPS herunter.",
+            link: "Mehr sehen",
           },
           {
             title: "Google Workspace",
             description:
-              "Google Docs және Slides ішіндегі белгішелерді оңай, жылдам және тегін пайдаланыңыз.",
-            link: "Толығырақ көру",
+              "Nutzen Sie die Symbole in Google Docs und Slides einfach, schnell und kostenlos.",
+            link: "Mehr sehen",
           },
         ],
       },
       whatsNew: {
-        title: "Piccon қолданбасындағы жаңалықтар",
+        title: "Was ist neu in Iccon?",
         description:
-          "Веб-сайттың соңғы жаңартуларын, жаңа мүмкіндіктерді және құралдарды қараңыз және Piccon тәжірибесін барынша пайдаланыңыз.",
-        button: "Барлығын шолу",
+          "Sehen Sie sich die neuesten Website-Updates, neuen Funktionen und Tools an und holen Sie das Beste aus Ihrem Iccon-Erlebnis heraus.",
+        button: "Alle durchsuchen",
         items: [
-          "SVG пішімі бар жаңа Figma плагині осында",
-          "UI тәжірибеңізді жеңілдетіңіз",
-          "Стиль бойынша сұрыптаңыз және сәйкес белгішелерді жылдам табыңыз",
+          "Das neue Figma-Plugin im SVG-Format ist da",
+          "Vereinfachen Sie Ihr UI-Erlebnis",
+          "Sortieren Sie nach Stil und finden Sie schnell passende Symbole",
         ],
       },
       bannerBottom: {
-        title: "Фигмаға белгішелерді жылдамырақ қосыңыз",
+        title: "Fügen Sie Symbole schneller zu Figma hinzu",
         description:
-          "Жаңа Figma плагині осында, ол сіздің кенепіңізге миллиондаған векторлық белгішелерді әкеледі.",
-        button: "Плагинді қолданып көріңіз",
+          "Das neue Figma-Plugin ist da und bringt Millionen von Vektorsymbolen direkt auf Ihre Leinwand.",
+        button: "Probieren Sie das Plugin aus",
       },
     },
     catalog: {
-      categories: [
-        "Барлық",
-        "Белгішелер",
-        "Интерфейс белгішелері",
-        "Стикерлер",
-      ],
+      categories: ["Alle", "Symbole", "Schnittstellensymbole", "Aufkleber"],
     },
     catalogDetail: {
-      button: "Сатып алу",
+      button: "Besorgen",
       license: {
-        title: "Piccon лицензиясы",
+        title: "Iccon-Lizenz",
         description: [
-          "Жеке және коммерциялық пайдалану үшін тегін. ",
-          "Атрибуция қажет. ",
+          "Kostenlos für den persönlichen und kommerziellen Gebrauch mit Namensnennung. ",
+          "Namensnennung ist erforderlich. ",
         ],
       },
       banner: {
-        title: "Стикерлер",
-        description: "Веб-сайттар мен қолданбаларға арналған сапалы стикерлер",
+        title: "Aufkleber",
+        description: "Hochwertige Aufkleber für Websites und Apps",
       },
-      titleTags: "Қатысты тегтер",
+      titleTags: "Verwandte Tags",
       icons: {
-        title: "Бір стиль мен тұжырымдамасы бар белгішелер",
-        button: "Толығырақ →",
+        title: "Symbole mit dem gleichen Stil und Konzept",
+        button: "Mehr erfahren →",
       },
       categories: {
-        title: "Бір стиль мен тұжырымдамасы бар белгішелер",
-        items: ["Белгішелер", "Интерфейс белгішелері", "Стикерлер"],
+        title: "Symbole mit dem gleichen Stil und Konzept",
+        items: ["Symbole", "Schnittstellensymbole", "Aufkleber"],
       },
     },
     projects: {
-      title: "Менің жобаларым",
-      buttonAdd: "Жоба қосу",
-      noprojectsDescription: "Сізде әлі ешқандай жоба жоқ",
+      title: "Meine Projekte",
+      buttonAdd: "Projekt hinzufügen",
+      noprojectsDescription: "Sie haben noch keine Projekte",
     },
     addProject: {
-      categoriesSelect: ["Белгішелер", "Интерфейс белгішелері", "Стикерлер"],
-      title: "Жоба қосыңыз",
-      imagesTitle: "Жоба суреттері",
-      imagesDescription: "5 файлдан артық емес. ",
+      categoriesSelect: ["Symbole", "Schnittstellensymbole", "Aufkleber"],
+      title: "Füge ein Projekt hinzu",
+      imagesTitle: "Projektbilder",
+      imagesDescription: "Nicht mehr als 5 Dateien. ",
       placeholders: [
-        "Жоба атауы *",
-        "Минималды баға *",
-        "Әзірлеуші ​​*",
-        "Пакет атауы *",
-        "Түйінді сөздер (үтірмен бөлінген)",
+        "Projektname *",
+        "Mindestpreis *",
+        "Entwickler *",
+        "Packungsname *",
+        "Schlüsselwörter (durch Kommas getrennt)",
       ],
-      button: "Сақтау",
+      button: "Speichern",
     },
     about: {
       bannerTop: {
-        title: "Бізбен танысыңыз",
+        title: "Lerne uns kennen",
         description:
-          "Біз сізге идеяларды жүзеге асыруға көмектескенді   жақсы көреміз. ",
+          "Wir helfen Ihnen gerne dabei, Ideen zum Leben zu erwecken. ",
       },
       possibilities: {
-        title: "Шексіз мүмкіндіктер",
+        title: "Unbegrenzte Möglichkeiten",
         description:
-          "Сіздің қиялыңызда шек жоқ, біз ұсынатын мүмкіндіктер де жоқ. ",
+          "Ihrer Fantasie sind keine Grenzen gesetzt, ebenso wenig wie den Möglichkeiten, die wir bieten. ",
       },
       team: {
-        title: "Біздің Piccon Ғаламының шығу тегі",
+        title: "Die Ursprünge unseres Iccon-Universums",
         description:
-          "Біздің бірінші жобамыз Piccon 2010 жылы ағайынды Алехандро және Пабло Бланес және олардың досы, Panoramic негізін қалаушы Хоакин Куэнкамен (Google сатып алған) негізін қалады. ",
+          "Unser erstes Projekt, Iccon, wurde 2010 von den Brüdern Alejandro und Pablo Blanes zusammen mit ihrem Freund Joaquin Cuenca, dem Gründer von Panoramic (von Google übernommen), gegründet. ",
       },
       companies: {
-        title: "Piccon компаниясының ресурсын пайдаланатын компаниялар",
+        title: "Unternehmen, die die Ressourcen der Iccon Company nutzen",
       },
       timeline: {
-        title: "Кейбір белестеріміз",
+        title: "Einige unserer Meilensteine",
         items: [
           {
             year: "2015",
             description:
-              "Біз өз платформаларымызға жазылу үлгісін жасаймыз, бұл пайдаланушыларға премиум болу үшін артықшылықтарды пайдалануға мүмкіндік береді.",
+              "Wir erstellen das Abonnementmodell für unsere Plattformen und geben unseren Nutzern die Möglichkeit, Premium-Vorteile zu genießen",
           },
-          { year: "2016", description: "Tutpad дүниеге келді" },
+          { year: "2016", description: "Tutpad ist geboren" },
           {
             year: "2017",
             description:
-              "Эксклюзивті контент өндірісі артып, біз өз фотоларымызды жасай бастаймыз",
+              "Die Produktion exklusiver Inhalte wird gesteigert und wir beginnen, eigene Fotos zu erstellen",
           },
           {
             year: "2018",
             description:
-              "Біздің жобалар жүйемізді және пайдаланушы тәжірибесін жетілдіре отырып, қайта жасақталды",
+              "Unsere Projekte werden neu gestaltet, wodurch unsere Systeme und das Benutzererlebnis verbessert werden",
           },
-          { year: "2019", description: "Slidesgo дүниеге келді" },
+          { year: "2019", description: "Slidesgo ist geboren" },
           {
             year: "2021",
             description:
-              "Wepik дүниеге келді Wepik әркімге өз жобалары үшін тартымды және сапалы графика жасауды тез және оңай ету миссиясымен іске қосылды.",
+              "Wepik wird geboren. Wepik wird mit der Mission gegründet, es jedem schnell und einfach zu machen, attraktive und hochwertige Grafiken für seine Projekte zu entwerfen",
           },
         ],
       },
       millions: {
-        title: "Еуропадағы ең жылдам дамып келе жатқан стартаптардың бірі",
+        title: "Eines der am schnellsten wachsenden Start-ups Europas",
         description:
-          "Financial Times журналының «Еуропаның ең жылдам дамып келе жатқан 1000 компаниясы».",
+          "„1000 Europas am schnellsten wachsende Unternehmen“ von Financial Times",
         items: [
-          { title: "18 млн", description: "Ай сайынғы бірегей пайдаланушылар" },
-          { title: "50 млн", description: "Айлық көрініс" },
-          { title: "100 млн", description: "Ай сайынғы жүктеп алу" },
-          { title: "4,5 млн", description: "Графикалық ресурс" },
+          { title: "18 Millionen", description: "Monatliche Unique User" },
+          { title: "50 Millionen", description: "Monatsansicht" },
+          { title: "100 Millionen", description: "Monatlicher Download" },
+          { title: "4,5 Millionen", description: "Grafische Ressource" },
         ],
       },
       bannerBottom: {
-        title: "Команда туралы көбірек білгіңіз келе ме?",
-        description: "Бірге жұмыс жасасақ, бәрі мүмкін.",
-        button: "Біздің командаға қосылыңыз →",
+        title: "Möchten Sie mehr über das Team erfahren?",
+        description: "Gemeinsam ist alles möglich.",
+        button: "Treten Sie unserem Team bei →",
       },
     },
     support: {
-      title: "Біз сізге көмектесе аламыз ба?",
+      title: "Können wir dir helfen?",
       form: {
-        title: "Өтінім жіберу",
-        input1: "Сіздің электрондық поштаңыз",
-        input2: "Тақырып",
+        title: "Einen Antrag stellen",
+        input1: "Deine E-Mail",
+        input2: "Thema",
         description1:
-          "Біздің жауабымызды алғыңыз келетін электрондық пошта мекенжайын енгізіңіз. ",
-        textarea: "Бізге хабарлама жазыңыз",
+          "Bitte geben Sie die E-Mail-Adresse ein, an die Sie unsere Antwort erhalten möchten. ",
+        textarea: "Schreiben Sie uns eine Nachricht",
         description2:
-          "Сұрауыңыздың мәліметтерін енгізіңіз және біздің Пайдалану шарттарына қатысты сұрақтарыңыз болса, ресурстарымызға бергіңіз келетін пайдаланудың нақты үлгілерін қосыңыз. ",
+          "Bitte geben Sie die Einzelheiten Ihrer Anfrage ein und fügen Sie bei Fragen zu unseren Nutzungsbedingungen bitte konkrete Beispiele für die Nutzung unserer Ressourcen bei. ",
         description3:
-          "Деректерді қорғау туралы негізгі ақпарат: Piccon компаниясы «Жіберу» түймесін басу арқылы берілген келісім негізінде жіберілген сұрақтарыңызға, ұсыныстарыңызға немесе шағымдарыңызға жауап беру үшін деректеріңізді өңдейді. ",
-        button: "Жіберу →",
+          "Grundlegende Informationen zum Datenschutz: Die Iccon Company verarbeitet Ihre Daten zur Beantwortung Ihrer Fragen, Anregungen oder Beschwerden auf Grundlage der durch Klicken auf die Schaltfläche „Senden“ erteilten Einwilligung. ",
+        button: "Senden →",
       },
     },
     faq: {
       advantages: [
         {
-          title: "Толық лицензия",
+          title: "Vollständige Lizenz",
           description:
-            "Премиум жазылыммен иллюстрацияны атрибуттауды ұмытыңыз. ",
+            "Vergessen Sie die Zuordnung einer Illustration zu einem Premium-Abonnement. ",
         },
         {
-          title: "Эксклюзивті мазмұн",
-          description: "Сіз қазір VIP мүшесісіз. ",
+          title: "Exklusiver Inhalt",
+          description: "Sie sind jetzt VIP-Mitglied. ",
         },
         {
-          title: "Үздіксіз өндіріс",
+          title: "Kontinuierliche Produktion",
           description:
-            "Piccon-та біз пайдаланушыларымызға қолжетімді мазмұнды үнемі арттырып, ең жақсы сапалы белгішелер мен стикерлерді ұсына береміз.",
+            "Bei Iccon erweitern wir ständig die Inhalte, die unseren Benutzern zur Verfügung stehen, und bieten Icons und Aufkleber in bester Qualität.",
         },
         {
-          title: "Жарнамалар жоқ",
-          description: "Piccon шолу оңайырақ болды. ",
+          title: "Keine Werbung",
+          description: "Das Durchsuchen von Iccon ist jetzt noch einfacher. ",
         },
       ],
       qaBlock: {
-        title: "Жиі қойылатын сұрақтар",
+        title: "FAQ",
         items: [
           {
             question:
-              "Жүктеп алынған белгішелерді клиентке жұмыс жасау үшін пайдалана аламын ба?",
+              "Kann ich heruntergeladene Symbole verwenden, um Arbeiten für einen Kunden zu erstellen?",
             answer:
-              "Қолдану ережелерімізге сәйкес келетін болса, жобаларыңыз үшін белгішелерімізді пайдалана аласыз: Толығырақ",
+              "Sie können unsere Icons für Ihre Projekte verwenden, sofern diese unseren Nutzungsregeln entsprechen.",
           },
           {
-            question: "Премиум мүшеліктің артықшылықтары қандай?",
+            question: "Welche Vorteile bietet eine Premium-Mitgliedschaft?",
             answer:
-              "Премиум пайдаланушы ретінде сіз біздің белгішелерімізді авторлық құқықсыз пайдалануға мүмкіндік беретін лицензияларды жүктей аласыз. Сондай-ақ, сіз біздің белгішелерімізді SVG, EPS, PSD, base 64 және PNG форматтарында жүктейсіз. Бұл ғана емес, жүктеу шегі күніне 2000 белгішеге дейін артады.",
+              "Als Premium-Benutzer können Sie Lizenzen herunterladen, die es Ihnen ermöglichen, unsere Symbole ohne Quellenangabe zu verwenden. ",
           },
           {
-            question: "Мен қанша топтама жасай аламын?",
+            question: "Wie viele Sammlungen kann ich erstellen?",
             answer:
-              "Тегін шоттар саны 3 коллекциямен шектеледі (әрқайсысында 50 белгішеден аспайды). Екінші жағынан, премиум-шоттар шексіз коллекциялар жасай алады (256 белгіше - әрқайсысында шектеу).",
+              "Kostenlose Konten haben ein Limit von 3 Sammlungen (maximal 50 Symbole pro Sammlung). ",
           },
           {
-            question: "Сатып алғаным үшін шот-фактура аламын ба?",
+            question: "Bekomme ich eine Rechnung für meinen Einkauf?",
             answer:
-              "Біздің жүйе төлемді алғаннан кейін шамамен 24 сағаттан кейін шот-фактураны автоматты түрде жасайды. Сіз оны жазылым бетінен жүктей аласыз.",
+              "Unser System erstellt automatisch ca. 24 Stunden nach Zahlungseingang eine Rechnung. ",
           },
           {
-            question: "Менің жазылым ай сайын автоматты түрде жаңартыла ма?",
-            answer:
-              "иә. Егер сіз бұл опциядан бас тартпасаңыз, жазылымыңыз автоматты түрде жаңартылады (әрдайым бастапқы бағамен, жаңарту кезінде жеңілдіктер қолданылмайды). Жазылымды автоматты түрде жаңартудан бас тарту және болашақта қажетсіз төлемдерді болдырмау үшін пайдаланушы профиліндегі жазылымнан бас тарту керек. Мұны Piccon-дан сатып алу үшін төлем сәтті аяқталғанын растайтын хабарлама алғаннан кейін жасағаныңызға көз жеткізіңіз, әйтпесе сіз жазылымнан толығымен бас тартасыз.",
+            question: "Wird mein Abonnement jeden Monat automatisch erneuert?",
+            answer: "Ja. ",
           },
           {
             question:
-              "Жазылымнан бас тартып, сатып алған ақшамды қайтаруды сұрай аламын ба?",
-            answer:
-              "Piccon - да біз сіздің бақытты болғаныңызды қалаймыз. Сонымен, егер сіз біздің қызметтерімізге толық қанағаттанбасаңыз, біз 30 күндік ақшаны қайтару кепілдігін ұсынамыз. Сіз сатып алған күннен бастап 30 күн ішінде толық қайтарымды ала аласыз, егер сіз қызметті пайдаланбаған болсаңыз, яғни ешқандай белгішені жүктемеген болсаңыз. Егер бұл сіздің жағдайыңыз болса, сіз info арқылы ақшаны қайтаруды сұрай аласыз pic-con.com . Сіз тек ағымдағы есеп айырысу кезеңінде ақшаны қайтаруды сұрай аласыз. Алдыңғы жазылымдар қайтарылмайтынын ескеріңіз.",
+              "Kann ich mein Abonnement kündigen und eine Rückerstattung meines Kaufs verlangen?",
+            answer: "Bei Iccon möchten wir, dass Sie glücklich sind. ",
           },
           {
-            question: "Тегін және Premium мүшелерінің айырмашылығы неде?",
+            question:
+              "Was ist der Unterschied zwischen den kostenlosen und Premium-Mitgliedern?",
             answer:
-              "Тегін мүше: сіз Piccon сілтемесін қосып, белгішелерді пайдаланудың орнына авторды көрсетуіңіз керек. Авторға несие беру үшін, егер белгішелерді Piccon жасаған болса, Piccon дизайнын немесе басқа жағдайда автордың атын пайдалану керек. Атрибуцияны қалай енгізу керек? Премиум мүше: сіз Piccon немесе біздің авторларымыздың бірі болсын, авторды көрсетпестен белгішелерді пайдалана аласыз. Сонымен қатар, сіз тек премиум пайдаланушылар үшін қол жетімді эксклюзивті суреттерге қол жеткізе аласыз.",
+              "Kostenloses Mitglied: Sie müssen einen Link zu Iccon hinzufügen und den Autor als Gegenleistung für die Verwendung der Symbole angeben. ",
           },
         ],
       },
     },
     cart: {
-      title: "Арба",
-      formTitle: "Төлем туралы ақпарат",
-      input1: "Карточкадағы аты",
-      input2: "Карточка нөмірі",
-      input3: "Ай",
-      input4: "Жыл",
+      title: "Wagen",
+      formTitle: "Zahlungsinformationen",
+      input1: "Name auf der Karte",
+      input2: "Kartennummer",
+      input3: "Monat",
+      input4: "Jahr",
       input5: "CVV",
-      total: "Барлығы",
-      button: "Шығу",
-      checkout: "Қауіпсіз төлем арқылы:",
+      total: "Gesamt",
+      button: "Kasse",
+      checkout: "Sicher bezahlen mit:",
     },
     error: {
-      title: "бірдеңе дұрыс болмады",
-      description: "сілтемені тексеріңіз, немесе мұндай бет жоқ",
-      link: "басты бетке өту",
+      title: "Etwas ist schief gelaufen",
+      description: "Überprüfen Sie den Link, sonst gibt es keine solche Seite",
+      link: "Gehen Sie zur Hauptseite",
     },
   },
   textPageSidebar: {
     buttons: [
-      "Қолдану ережелері",
-      "Cookie саясаты",
-      "Құпиялылық саясаты",
-      "Қолдау",
-      "Жиі қойылатын сұрақтар",
+      "Nutzungsbedingungen",
+      "Cookie-Richtlinie",
+      "Datenschutz-Bestimmungen",
+      "Unterstützung",
+      "FAQ",
     ],
   },
   header: {
     categories: [
-      "Барлық санаттар",
-      "Белгішелер",
-      "Интерфейс белгішелері",
-      "Стикерлер",
+      "Alle Kategorien",
+      "Symbole",
+      "Schnittstellensymbole",
+      "Aufkleber",
     ],
-    buttons: ["Себет", "Жобалар", "Кіру", "Тіркелу"],
+    buttons: ["Wagen", "Projekte", "Anmeldung", "Anmeldung"],
   },
   footer: {
-    button: "Белгішелеріңізді сатыңыз",
+    button: "Verkaufen Sie Ihre Icons",
     categories: {
-      title: "Мазмұны",
+      title: "Inhalt",
       items: [
-        "Барлық санаттар",
-        "Белгішелер",
-        "Интерфейс белгішелері",
-        "Стикерлер",
+        "Alle Kategorien",
+        "Symbole",
+        "Schnittstellensymbole",
+        "Aufkleber",
       ],
     },
     links: {
-      title: "Компания",
+      title: "Unternehmen",
       items: [
-        "Біз туралы",
-        "Қолдау",
-        "Шарттар",
-        "Cookie",
-        "Құпиялық",
-        "Жиі қойылатын сұрақтар",
+        "Über uns",
+        "Unterstützung",
+        "Bedingungen",
+        "Plätzchen",
+        "Privatsphäre",
+        "FAQ",
       ],
     },
     signup: {
-      description: "Эксклюзивті суреттерді тікелей кіріс жәшігіңізге алыңыз",
-      button: "Тіркелу",
+      description: "Erhalten Sie exklusive Bilder direkt in Ihrem Posteingang",
+      button: "Anmeldung",
     },
     copyright: {
-      text: "Copyright © 2010-2023 Piccon Company S.L. ",
-      link: "Кері байланыс",
+      text: "Copyright © 2010-2023 Iccon Company S.L. ",
+      link: "Rückmeldung",
     },
   },
-  projectHorizontal: { button: "Жою" },
-  packSwitcher: "Барлық пакеттер",
+  projectHorizontal: { button: "Entfernen" },
+  packSwitcher: "Alle Packungen",
   sortSwitcher: {
-    title: "Бойынша сұрыптау",
-    options: ["Қымбаттан арзанға", "Арзаннан қымбатқа"],
+    title: "Sortiere nach",
+    options: ["Von teurer zu billiger", "Günstiger bis teurer"],
   },
   popupSuccess: {
-    title: "Жетістік",
-    description: "Сұрау сәтті жіберілді",
-    button: "Дайын",
+    title: "Erfolg",
+    description: "Anfrage erfolgreich gesendet",
+    button: "Erledigt",
   },
   popupTransactionFailed: {
-    title: "Бірдеңе дұрыс болмады",
-    description: "Қайталап көріңіз немесе сәл кейінірек пікір жазыңыз",
-    button: "Жабық",
+    title: "Etwas ist schief gelaufen",
+    description:
+      "Versuchen Sie es noch einmal oder schreiben Sie etwas später eine Bewertung",
+    button: "Schließen",
   },
   popupSignIn: {
-    title: "Кіру",
-    description: "Сізде аккаунт жоқ па?",
-    link: "Тіркелу",
-    placeholders: ["Электрондық пошта", "Құпия сөз"],
-    button: "Кіру",
-    errors: ["Пайдаланушы табылмады!", "Қате құпиясөз!"],
+    title: "Anmeldung",
+    description: "Sie haben kein Konto?",
+    link: "Anmeldung",
+    placeholders: ["Email", "Passwort"],
+    button: "anmelden",
+    errors: ["Benutzer wurde nicht gefunden!", "Falsches Passwort!"],
   },
   popupSignUp: {
-    title: "Аккаунты құру",
-    description: "Есептік жазбаңыз болса,",
-    link: "кіру",
-    buttonPhotoAdd: "Фото қосу",
-    buttonPhotoDelete: "Жою",
+    title: "Ein Konto erstellen",
+    description: "Wenn Sie ein Konto haben,",
+    link: "Anmeldung",
+    buttonPhotoAdd: "Foto hinzufügen",
+    buttonPhotoDelete: "Löschen",
     placeholders: [
-      "Аты",
-      "Тек",
-      "Сипаттама",
-      "Электрондық пошта",
-      "Құпия сөз",
-      "Құпия сөзді қайталаңыз",
+      "Vorname",
+      "Familienname, Nachname",
+      "Beschreibung",
+      "Email",
+      "Passwort",
+      "Wiederholen Sie das Passwort",
     ],
-    label: "Мен құпиялылық саясатымен келісемін",
-    buttonCreate: "Аккаунты құру",
-    error: "Бұл электрондық поштасы бар пайдаланушы дерекқорда әлдеқашан бар! ",
+    label: "Ich bin mit der Datenschutzerklärung einverstanden",
+    buttonCreate: "Ein Konto erstellen",
+    error:
+      "Der Benutzer mit dieser E-Mail existiert bereits in der Datenbank! ",
   },
   search: {
-    placeholder: "Белгішелерді іздеу",
-    noresult: "Нәтиже жоқ",
+    placeholder: "Suchen Sie nach Symbolen",
+    noresult: "Keine Ergebnisse",
   },
-  paginator: { buttonPrevious: "Алдыңғы бет", buttonNext: "Келесі бет" },
+  paginator: { buttonPrevious: "Vorherige Seite", buttonNext: "Nächste Seite" },
 };

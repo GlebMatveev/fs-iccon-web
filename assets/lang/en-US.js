@@ -87,9 +87,9 @@ export default {
         ],
       },
       whatsNew: {
-        title: "What’s New in Piccon",
+        title: "What’s New in Iccon",
         description:
-          "See the latest website updates, new features, and tools, and get the most out of your Piccon experience.",
+          "See the latest website updates, new features, and tools, and get the most out of your Iccon experience.",
         button: "Browse all",
         items: [
           "New Figma plugin with SVG format is here",
@@ -110,7 +110,7 @@ export default {
     catalogDetail: {
       button: "Buy",
       license: {
-        title: "Piccon license",
+        title: "Iccon license",
         description: [
           "Free for personal and commercial use with attribution. More info",
           "Attribution is required. How to attribute?",
@@ -159,15 +159,15 @@ export default {
       possibilities: {
         title: "Unlimited possibilities",
         description:
-          "Your imagination has no limits, neither do the possibilities we offer. X fl Piccon Company comprises three engaging projects.",
+          "Your imagination has no limits, neither do the possibilities we offer. X fl Iccon Company comprises three engaging projects.",
       },
       team: {
-        title: "The origins of our Piccon Universe",
+        title: "The origins of our Iccon Universe",
         description:
-          "Our first project, Piccon, was founded in 2010 by brothers Alejandro and Pablo Blanes, along with their friend Joaquin Cuenca, founder of Panoramic (acquired by Google). Alejandro felt the urge to create a platform where designers could find free graphic resources. Pablo and Joaquin supported his idea and that’s how Piccon Company was created. Since then, our Universe has been expanding non-stop, creating two new projects: Piccon and Slidesgo.",
+          "Our first project, Iccon, was founded in 2010 by brothers Alejandro and Pablo Blanes, along with their friend Joaquin Cuenca, founder of Panoramic (acquired by Google). Alejandro felt the urge to create a platform where designers could find free graphic resources. Pablo and Joaquin supported his idea and that’s how Iccon Company was created. Since then, our Universe has been expanding non-stop, creating two new projects: Iccon and Slidesgo.",
       },
       companies: {
-        title: "Companies that use Piccon Company’s resource",
+        title: "Companies that use Iccon Company’s resource",
       },
       timeline: {
         title: "Some of our milestones",
@@ -238,12 +238,12 @@ export default {
         input1: "Your email",
         input2: "Subject",
         description1:
-          "Please, enter the email address where you wish to receive our answer. If you are a registered user of Piccon, please include the email address you used when you registered if possible to help us locate your account as soon as possible.",
+          "Please, enter the email address where you wish to receive our answer. If you are a registered user of Iccon, please include the email address you used when you registered if possible to help us locate your account as soon as possible.",
         textarea: "Write us a message",
         description2:
           "Please enter the details of your request and, if you have any questions regarding our Terms of Use, please include specific samples of the usage you wish to give our resouces. If you’re reporting a problem, make sure to include as much information as possible. Please include any screenshots or videos of issues since this will also help us resolve problems much sooner. Once your request is submitted, a member of our support staff will respond as soon as possible.",
         description3:
-          'Basic information on Data Protection: Piccon Company will process your data to respond to your questions, suggestions or complaints submitted, based on the consent given by clicking the "Send" button. Your data will not be disclosed to third parties and will be transferred outside the EU under the terms of the privacy policy. You can find out how to exercise your rights, revoke your consent and more information in the Privacy Policy',
+          'Basic information on Data Protection: Iccon Company will process your data to respond to your questions, suggestions or complaints submitted, based on the consent given by clicking the "Send" button. Your data will not be disclosed to third parties and will be transferred outside the EU under the terms of the privacy policy. You can find out how to exercise your rights, revoke your consent and more information in the Privacy Policy',
         button: "Send →",
       },
     },
@@ -262,12 +262,12 @@ export default {
         {
           title: "Continuous production",
           description:
-            "At Piccon we are constantly increasing our content available to our users, offering the best quality icons and stickers.",
+            "At Iccon we are constantly increasing our content available to our users, offering the best quality icons and stickers.",
         },
         {
           title: "No ads",
           description:
-            "Browsing Piccon just got easier. You can fully focus on your work without any ads.",
+            "Browsing Iccon just got easier. You can fully focus on your work without any ads.",
         },
       ],
       qaBlock: {
@@ -296,19 +296,19 @@ export default {
           {
             question: "Is my subscription automatically renewed every month?",
             answer:
-              "Yes. Your subscription will renew automatically unless you cancel this option (always with the original price, no discounts apply for renewals). To cancel the automatic renewal of your subscription and avoid future non-desired payments, you must cancel your subscription from your user’s profile. Please make sure you do this after you have received a message from Piccon confirming that the payment of your purchase has been successfully completed, otherwise you will cancel your subscription completely.",
+              "Yes. Your subscription will renew automatically unless you cancel this option (always with the original price, no discounts apply for renewals). To cancel the automatic renewal of your subscription and avoid future non-desired payments, you must cancel your subscription from your user’s profile. Please make sure you do this after you have received a message from Iccon confirming that the payment of your purchase has been successfully completed, otherwise you will cancel your subscription completely.",
           },
           {
             question:
               "Can I cancel my subscription and ask for a refund of my purchase?",
             answer:
-              "At Piccon we want you to be happy. So, if you are not completely satisfied with our services, we offer a 30-day refund guarantee. You can get the full refund within 30 days from the purchase date, provided you didn’t get to use the service, that is, you haven’t downloaded any icon. If that is your case, you can request the refund through info at pic-con.com. You can only request a refund for the current billing period. Please note that previous subscriptions cannot be refunded.",
+              "At Iccon we want you to be happy. So, if you are not completely satisfied with our services, we offer a 30-day refund guarantee. You can get the full refund within 30 days from the purchase date, provided you didn’t get to use the service, that is, you haven’t downloaded any icon. If that is your case, you can request the refund through info at pic-con.com. You can only request a refund for the current billing period. Please note that previous subscriptions cannot be refunded.",
           },
           {
             question:
               "What is the difference between the Free and Premium members?",
             answer:
-              "Free member: you must add a link to Piccon and credit the author in exchange for using the icons. To credit the author, you must use Designed by Piccon if the icons were made by Piccon, or otherwise the author’s name in any other case. How must I insert the attribution? Premium member: you can use the icons without crediting the author, be it Piccon or one of our contributors. Additionally, you will have access to exclusive images available only for premium users.",
+              "Free member: you must add a link to Iccon and credit the author in exchange for using the icons. To credit the author, you must use Designed by Iccon if the icons were made by Iccon, or otherwise the author’s name in any other case. How must I insert the attribution? Premium member: you can use the icons without crediting the author, be it Iccon or one of our contributors. Additionally, you will have access to exclusive images available only for premium users.",
           },
         ],
       },
@@ -331,7 +331,6 @@ export default {
       link: "Go to the main page",
     },
   },
-
   textPageSidebar: {
     buttons: [
       "Terms of use",
@@ -360,7 +359,7 @@ export default {
       button: "Sign up",
     },
     copyright: {
-      text: "Copyright © 2010-2023 Piccon Company S.L. All rights reserved.",
+      text: "Copyright © 2010-2023 Iccon Company S.L. All rights reserved.",
       link: "Feedback",
     },
   },

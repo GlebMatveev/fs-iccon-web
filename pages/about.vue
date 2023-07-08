@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "Piccon | About Us",
+  title: "Iccon | About Us",
 });
 </script>
 
