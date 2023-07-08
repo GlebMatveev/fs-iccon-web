@@ -28,12 +28,13 @@ const errorMsg = computed(() => {
 // Functions
 function signupUser(user) {
   $fetch("/auth/signup", {
+    headers: basicAuth,
     method: "POST",
     baseURL: runtimeConfig.public.apiBase,
     body: user,
   }).then(function (response) {
-    // response.user_adding = true - пользователь успешно зарегистрирован
-    // response.user_adding = false - пользователь уже существует
+    // response.user_adding = true - user successfully registered
+    // response.user_adding = false - user already exists
     if (response.user_adding === true) {
       showPopupSignIn();
     } else if (response.user_adding === false) {

@@ -7,13 +7,20 @@ const cartStore = useCartStore();
 // Environment Variables
 const runtimeConfig = useRuntimeConfig();
 
+// Auth data
+const basicAuth = {
+  Authorization: `Basic ${runtimeConfig.public.basicAuth}`,
+};
+
 // Fetch
 const { data: products } = await useFetch(
-  runtimeConfig.public.apiBase + "/products/user/" + localStorage.userId
+  runtimeConfig.public.apiBase + "/products/user/" + localStorage.userId,
+  { headers: basicAuth }
 );
 
 const { data: users } = await useFetch(
-  runtimeConfig.public.apiBase + "/users/" + localStorage.userId
+  runtimeConfig.public.apiBase + "/users/" + localStorage.userId,
+  { headers: basicAuth }
 );
 const user = users.value[0];
 

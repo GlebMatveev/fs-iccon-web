@@ -20,15 +20,21 @@ const route = useRoute();
 // Router parameters
 const router = useRouter();
 
+// Auth data
+const basicAuth = {
+  Authorization: `Basic ${runtimeConfig.public.basicAuth}`,
+};
+
 // Fetch
 const { data: products } = await useFetch(
-  runtimeConfig.public.apiBase + "/products/" + route.params.id
+  runtimeConfig.public.apiBase + "/products/" + route.params.id,
+  { headers: basicAuth }
 );
 const product = products.value[0];
 
-// Fetch
 const { data: productsByPack } = await useFetch(
-  runtimeConfig.public.apiBase + "/products/pack/" + product.pack
+  runtimeConfig.public.apiBase + "/products/pack/" + product.pack,
+  { headers: basicAuth }
 );
 
 // Functions

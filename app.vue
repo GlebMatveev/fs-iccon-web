@@ -23,8 +23,8 @@ onMounted(() => {
 
 // Functions
 function showPopupSignIn() {
-  popupStore.popupSignUp = false;
   popupStore.popupSignIn = true;
+  popupStore.popupSignUp = false;
 }
 
 function showPopupSignUp() {
@@ -48,15 +48,15 @@ function showPopupSignUp() {
     <AppFooter />
 
     <!-- POPUP -->
-    <UiPopupSignUp
+    <UiPopupSignIn
       :show="popupStore.popupSignIn"
       @close="popupStore.popupSignIn = false"
-      @to-sign-in="showPopupSignIn()"
+      @to-sign-up="showPopupSignUp()"
     />
-    <UiPopupSignIn
+    <UiPopupSignUp
       :show="popupStore.popupSignUp"
       @close="popupStore.popupSignUp = false"
-      @to-sign-up="showPopupSignUp()"
+      @to-sign-in="showPopupSignIn()"
     />
     <UiPopupSuccess
       :show="popupStore.popupSuccess"

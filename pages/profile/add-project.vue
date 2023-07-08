@@ -2,6 +2,11 @@
 // Environment Variables
 const runtimeConfig = useRuntimeConfig();
 
+// Auth data
+const basicAuth = {
+  Authorization: `Basic ${runtimeConfig.public.basicAuth}`,
+};
+
 // Router parameters
 const router = useRouter();
 
@@ -26,6 +31,7 @@ function postAsset(asset) {
   asset.user_id = localStorage.userId;
 
   $fetch("/products/add", {
+    headers: basicAuth,
     method: "POST",
     baseURL: runtimeConfig.public.apiBase,
     body: asset,

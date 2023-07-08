@@ -6,6 +6,12 @@ const popupStore = usePopupStore();
 // Environment Variables
 const runtimeConfig = useRuntimeConfig();
 
+// Auth data
+const basicAuth = {
+  Authorization: `Basic ${runtimeConfig.public.basicAuth}`,
+};
+
+// Variables
 const request = reactive({
   user_id: localStorage.userId,
   email: "",
@@ -16,6 +22,7 @@ const request = reactive({
 // Functions
 function postRequest(request) {
   $fetch("/requests", {
+    headers: basicAuth,
     method: "POST",
     baseURL: runtimeConfig.public.apiBase,
     body: request,

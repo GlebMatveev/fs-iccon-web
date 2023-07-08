@@ -13,12 +13,18 @@ const productStore = useProductStore();
 // Environment Variables
 const runtimeConfig = useRuntimeConfig();
 
+// Auth data
+const basicAuth = {
+  Authorization: `Basic ${runtimeConfig.public.basicAuth}`,
+};
+
 // Router parameters
 const router = useRouter();
 
 // States
-const useStateToRouteAfterAuth = useState("stateToRouteAfterAuth", () => "");
+const useStateToRouteAfterAuth = useState("stateToRouteAfterAuth");
 
+// Functions
 function applyFilterAndRouterPush(category) {
   filterStore.filters.categories = [category];
   filterStore.filters.skip = 0;
@@ -42,10 +48,10 @@ function showPopupSignIn() {
 
 function checkAuth(to) {
   useStateToRouteAfterAuth.value = to;
-  // если нет данных авторизации
+  // no authorization
   if (!localStorage.userId || !localStorage.userToken) {
     showPopupSignIn();
-    // если есть данные авторизации
+    // if there is authorization data
   } else if (localStorage.userId && localStorage.userToken) {
     let checkToken = {
       userId: localStorage.userId,
@@ -53,13 +59,14 @@ function checkAuth(to) {
     };
 
     $fetch("/auth/token", {
+      headers: basicAuth,
       method: "POST",
       baseURL: runtimeConfig.public.apiBase,
       body: checkToken,
     })
       .then((response) => {
-        // code = 0 - истёк срок жизни токена
-        // code = 1 - токен актуален
+        // code = 0 - token expired
+        // code = 1 - token is up to date
         if (response.code == 0) {
           showPopupSignIn();
         } else if (response.code == 1) {

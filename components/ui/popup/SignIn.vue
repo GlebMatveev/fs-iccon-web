@@ -14,6 +14,11 @@ const emit = defineEmits(["close", "to-sign-up"]);
 // Environment Variables
 const runtimeConfig = useRuntimeConfig();
 
+// Auth data
+const basicAuth = {
+  Authorization: `Basic ${runtimeConfig.public.basicAuth}`,
+};
+
 // Router parameters
 const router = useRouter();
 
@@ -39,13 +44,14 @@ let errorMessage = ref("");
 // Functions
 function loginUser(user) {
   $fetch("/auth/signin", {
+    headers: basicAuth,
     method: "POST",
     baseURL: runtimeConfig.public.apiBase,
     body: user,
   }).then(function (response) {
-    // user_auth = 0 - пользователь не найден
-    // user_auth = 1 - пароль неверный
-    // user_auth = 2 - пользователь найден
+    // user_auth = 0 - user is not found
+    // user_auth = 1 - wrong password
+    // user_auth = 2 - user found
     if (response.user_auth === 0) {
       //
       errorMessage.value = errorMsg1;

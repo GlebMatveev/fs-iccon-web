@@ -12,13 +12,19 @@ const cartStore = useCartStore();
 // Environment Variables
 const runtimeConfig = useRuntimeConfig();
 
+// Auth data
+const basicAuth = {
+  Authorization: `Basic ${runtimeConfig.public.basicAuth}`,
+};
+
 // Middleware
 definePageMeta({
   middleware: "auth",
 });
 
 const { data: users } = await useFetch(
-  runtimeConfig.public.apiBase + "/users/" + localStorage.userId
+  runtimeConfig.public.apiBase + "/users/" + localStorage.userId,
+  { headers: basicAuth }
 );
 const user = users.value[0];
 
@@ -77,6 +83,7 @@ function checkout() {
   order.order.amount.currency = cartStore.currentCurrency.code;
 
   $fetch("/orders", {
+    headers: basicAuth,
     method: "POST",
     baseURL: runtimeConfig.public.apiBase,
     body: JSON.stringify(order),

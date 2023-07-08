@@ -12,8 +12,8 @@ useHead({
           <AppTextPageSidebar />
         </div>
         <div class="textpage__content">
-          <h2>Lorem ipsum dolor sit amet</h2>
-          <h3>Lorem ipsum, dolor sit amet consectetur adipisicing</h3>
+          <h2>Terms of use</h2>
+          <h3>Terms of use</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
             sapiente facilis voluptates, obcaecati dolor modi saepe quis labore
