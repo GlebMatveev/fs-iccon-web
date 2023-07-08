@@ -46,11 +46,6 @@ function clearFilterAndRouterPush() {
               alt="Logo"
             />
           </NuxtLink>
-          <p class="footer__top-left-text">Qarlygash Media Group</p>
-          <p class="footer__top-left-text">
-            Kazakhstan, Almaty city, Medeu district, Fonvizina street, house 10,
-            050051
-          </p>
           <UiButtonMain
             :title="$t('footer.button')"
             theme="secondary"
